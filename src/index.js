@@ -1,3 +1,3 @@
-import px2EmSync from './px2EmSync';
+import px2EmSync from './px2emSync';
 
 export default px2EmSync;

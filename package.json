@@ -1,6 +1,6 @@
 {
   "name": "px2em-sync",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "main": "lib/index.js",
   "jsnext:main": "lib/index.js",
   "repository": "git@github.com:team-griffin/px2em-sync.git",

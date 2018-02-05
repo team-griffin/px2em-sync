@@ -1,8 +1,21 @@
 {
-  "presets": ["es2015", "stage-0"],
-  "env": {
-    "test": {
-      "plugins": ["istanbul"]
-    }
-  }
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": [
+            "last 2 versions",
+            "safari >= 7"
+          ],
+        },
+        "modules": "commonjs",
+        "useBuiltIns": "usage",
+      }
+    ]
+  ],
+
+  "plugins": [
+    ["transform-object-rest-spread", { "useBuiltIns": true }]
+  ]
 }
